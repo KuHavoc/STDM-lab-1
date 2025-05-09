@@ -1,3 +1,6 @@
+import interactive from './interactive';
+import nonInteractive from './nonInteractive';
+
 function main() {
     const args = process.argv.slice(2);
     if (args.length === 0) {
@@ -11,11 +14,3 @@ function main() {
 }
 
 main();
-
-async function interactive() {
-    console.log('interactive');
-}
-
-function nonInteractive(args: string) {
-    console.log(`nonInteractive file path: ${args}`);
-}
