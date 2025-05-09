@@ -1,5 +1,5 @@
 import * as readline from 'readline';
-import { fmt, printEquation, solve } from "./utils";
+import { fmt, printEquation, solve } from './utils';
 
 async function interactive(): Promise<void> {
     const rl = readline.createInterface({
