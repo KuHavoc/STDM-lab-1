@@ -13,7 +13,7 @@ export function solve(a: number, b: number, c: number): number[] {
 }
 
 export function fmt(n: number): string {
-    return n.toFixed(1);
+    return n.toFixed(4);
 }
 
 export function printEquation(a: number, b: number, c: number): void {
