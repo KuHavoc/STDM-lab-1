@@ -8,7 +8,7 @@ a x^2 + b x + c = 0
 
 The application can operate in two modes:
 - Interactive mode — coefficients are entered manually via console prompts.
-- File mode — coefficients are read from a provided file.
+- Non Interactive mode — coefficients are read from a provided file.
 
 ## Getting Started
 ### Prerequisites
